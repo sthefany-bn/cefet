@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
+*{
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin: 0;
+}
+
+:root{
+    --primary: #121212;;
+    --gray: #707070;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+/*INDEX*/
+.logo {
+    width: 10rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*HEDER*/
+header {
+    background-color: var(--primary);
+    padding: 1px;
+}
+
+header img {
+    width: 4rem;
+    height: auto;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+.imagem {
+    display: flex;
+    align-items: center;
+
+    margin-left: 5px;
+    padding: 5px;
+}
+
+/*MAIN*/
+main {
+    padding: 20px;
+    min-height: 100%;
+    transition: margin-left 0.3s;
+}
+
+.h1p {
+    margin-top: 0.5rem;
+    margin-bottom: 3rem;
+}
+
+main h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    font-size: 60px;
+}
+
+footer {
+    background-color: var(--primary);
+    height: 2.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    bottom:0;
+}

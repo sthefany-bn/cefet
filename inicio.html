@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mensagem.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="./img/Logo_branco.png" alt="logo roupa" />
+        </a>
+    </header>
+    <main>
+        <h1>Mande uma</h1>
+        <h1 class="h1p">mensagem!</h1>
+        <form action="https://formsubmit.co/profissional1889@gmail.com" method="POST">
+            <input type="hidden" name="_next" value="https://project-drinks-one.vercel.app/sucesso.html"/>
+            <input type="hidden" name="_captcha" value="false"/>
+            <input type="text" name="Name" placeholder="Seu nome" required>
+            <textarea type="text" name="Mensagem" placeholder="Mensagem" cols="30" rows="10"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+</body>
+</html>
